@@ -47,6 +47,7 @@ class UI{
             btnRemove[i].addEventListener("click", function(){
                 this.parentElement.parentElement.parentElement.remove();
                 self.cartCount();
+                self.updateTotal();
             })
             
         }
